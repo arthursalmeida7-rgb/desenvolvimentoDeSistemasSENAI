@@ -1,0 +1,21 @@
+O que é GitHub?
+É uma plataforma online baseada em nuvem que utiliza o sistema de controle de versão Git para permitir que desenvolvedores e equipes colaborem em projetos de software. Ele serve como um repositório para armazenar e gerenciar código-fonte, além de oferecer ferramentas para controle de versões, rastreamento de alterações e colaboração em projetos.
+
+Suas funcionalidades:
+-repositorios
+É um local de armazenamento centralizado onde desenvolvedores podem guardar, gerenciar e controlar versões de seus projetos de código.
+
+-commit
+Representa um “ponto de salvamento” no histórico de um projeto dentro de um repositório Git hospedado no GitHub.
+
+-fetch
+É um comando primário usado para baixar conteúdo de um repositório remoto. O git fetch é usado em conjunto com git remote, git Branch, git checkout e git reset para atualizar um repostório local para o estado de um remoto.
+
+-pull
+Usando para buscar e baixar conteúdo de um repositório remoto e atualizar imediatamente o repositório local corresponder a esse conteúdo.
+
+-pusch
+Comando para enviar conteúdo de um repositório local para um repositório remoto, como o GitHub. É o mecanismo para transferir alterações confirmadas da sua máquina local para um local compartilho e centralizado.
+
+-public
+São acessíveis publicamente a qualquer pessoa na internet através de um código. Qualquer pessoa pode visualizar, bifurcar e clonar o código. Estes repositórios públicos são comumente usados para projetos de código aberto, onde a colaboração e a transparência são incentivadas, mas, apenas colaboradores com permissões explícitos podem enviar alterações diretamente para a ramificação principal.
