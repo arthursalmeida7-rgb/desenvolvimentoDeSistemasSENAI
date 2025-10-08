@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/all.css">
+</head>
+<body>
+    <main>
+        <div id="bannerLogin"></div>
+
+        <div id="formulaLogin">
+            <form method="get" action="#">
+
+                <div class="inputLabel">
+                    <label for="email">Digite o seu email*: </label>
+                    <input required id="email" placeholder="Ex : severtog@gmail.com" type="email">
+                </div>
+
+                <div class="inputLabel">
+                    <label for="senha">Digite a sua senha*: </label>
+                    <input required id="senha" placeholder="Ex : 18/07/1986" type="password">
+                </div>
+
+                <div class="inputLabel">
+                    <label for="idade">Digite a sua idade*: </label>
+                    <input min="8" max="200" required id="idade" step="1" placeholder="Ex : 22" type="number">
+                </div>
+
+                <div class="inputLabel">
+                    <button type="submit">Logar</button>
+                    <button type="reset">Resetar</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>
