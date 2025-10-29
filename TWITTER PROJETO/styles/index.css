@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header h1 {
+  font-weight: 700;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+main {
+  padding: 20px;
+}
+
+.destaque {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.destaque h2 {
+  border-bottom: 2px solid #f36;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.artista {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.artista img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.artista button {
+  background: #f36;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.artes h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card button {
+  background: #f36;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .artista {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .artista, .card {
+    padding: 10px;
+  }
+
+  .artista button, .card button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
