@@ -1,0 +1,9 @@
+#menuPc{
+    display: none;
+}
+
+#btnMenu{
+    display: block;
+    background-color: transparent;
+    border: none;
+}

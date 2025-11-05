@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #96be84;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+}
+
+header nav a {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: #36996b;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.hero-text h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.hero-text p {
+  font-size: 12px;
+  color: #333;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img .circle {
+  width: 250px;
+  height: 250px;
+  background-color: #666;
+  border-radius: 50%;
+}
+
+.explore {
+  background-color: #44662d;
+  padding: 40px 40px;
+}
+
+.explore h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.explore .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.explore .text {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.explore .text h3 {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.explore .text p {
+  font-size: 12px;
+}
+
+.explore .img {
+  flex: 1;
+  min-width: 250px;
+  height: 200px;
+  background-color: #d6d0d0;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.posts {
+  flex: 2;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.post .thumb {
+  width: 200px;
+  height: 200px;
+  background-color: #c9c9c9;
+  margin-right: 20px;
+}
+
+.post .info h3 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.post .info h4 {
+  font-size: 13px;
+  color: #555;
+}
+
+.post .info p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.post .author {
+  font-size: 11px;
+  color: #444;
+  margin-top: 5px;
+}
+
+.sidebar {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.sidebar input {
+  width: 200%;
+  padding: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.sidebar .box {
+  background-color: #4f7446;
+  padding: 8px;
+  font-size: 10px;
+  border: 1px solid #165a16;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.networking {
+  background-color: #d0c9c9;
+  padding: 50px 60px;
+}
+
+.networking h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.networking .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.networking .text {
+  flex: 1;
+  min-width: 200px;
+  font-size: 12px;
+}
+
+.networking .imgs {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.networking .imgs div {
+  width: 250px;
+  height: 250px;
+  background-color: #333;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 3px 0;
+}
+
+.container {
+  background-image: url("../imagens/mundoverde.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+

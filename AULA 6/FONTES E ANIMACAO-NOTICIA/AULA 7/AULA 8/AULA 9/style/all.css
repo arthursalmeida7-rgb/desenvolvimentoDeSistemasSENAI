@@ -47,9 +47,40 @@ main{
     box-shadow: 10px 10px 10px rgb(206, 206, 206);
 }
 
-.formulaAtual{
+.paginaAtual{
     background-color: var(--branco);
     padding: 3px;
     color: var(--corPrimaria);
     border-radius: 5px;
+}
+
+#lista{
+    background-color: var(--branco);
+    padding: 3px;
+    color: var(--corPrimaria);
+    border-radius: 5px;
+}
+
+#biblioteca{
+    display: flex;
+    flex-direction: row;
+}
+
+#listaCategorias{
+    width: 30%;
+}
+
+#ListaJogos tr,#ListaJogos table{
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+    background-color: rgb(79, 148, 238);
+}
+
+#ListaJogos img{
+    width: 100px;
+}
+
+#ListaJogos{
+    width: 70%;
 }
